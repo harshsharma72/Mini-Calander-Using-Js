@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(243.3deg, rgb(247, 164, 216) 35.7%, rgb(115, 102, 252) 121.6%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#heading{
+    margin-bottom: 50px;
+    color:rgb(115, 102, 252);
+}
+.calander{
+    height: 200px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    align-items: center;
+    background-color: wheat;
+}
+.left h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+.left p{
+    color: #555;
+    font-weight: 600;
+}
+.right{
+    height: 100%;
+    width: 45%;
+    background-color: hwb(16 10% 1% / 0.918);
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
